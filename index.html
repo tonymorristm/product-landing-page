@@ -3,48 +3,69 @@
   <head>
     <meta charset="utf-8">
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/style.css">      
   </head>
   <body>
-    
+
   <header id="header">
+    <nav id="nav-bar">
 
     <div class="logo">
-      <img src="images/logo.jpg" id="header-img" alt="">
+      <img src="images/logo.jpg" id="header-img" alt="company logo">
     </div>
     
-    <nav id="nav-bar">
-      <ul>
-        <li><a href="" class="nav-link"></a>Features</li>
-        <li><a href="" class="nav-link"></a>How It Works</li>
-        <li><a href="" class="nav-lilnk"></a>Pricing</li>
+      <ul class="nav-links">
+        <li>
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#howitworks">How It Works</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
       </ul>
+    
     </nav>
 
- 
-    
   </header>
 
-  <div id="page">
+  <h2 class="text-h2">Hancrafted, hand-made horological masterpieces</h2>
 
-  <div id="video">
-
-  </div>
-
-
-  <form action="" id="form">
-    <input type="email" id="email" placeholder="Enter email address">
-    <input type="submit" id="submit">
+  <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <input type="email" id="email" name="email" placeholder="Enter email address" required><br>
+    <input type="submit" id="submit" value="Get Started">
   </form>
 
-</div><!-- page -->
+  
+  <h2 id="features">Features</h2>
+  <p>Premium Materials</p>
+  <p>Fast Shipping</p>
+  <p>Quality Assurance</p>
+ 
+  <h2 id="howitworks">How It Works</h2>
+  <p>How it Works</p>
 
-<!--   
+    <div id="video-section">
+      <iframe id="video" src="https://player.vimeo.com/video/45356333" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+
+    </div><!-- howitworks -->
+
+    <h2 id="pricing">Pricing</h2>
+    <p>Pricing</p>
+
+ 
+
+  
   <footer>
     <p>Copyright &copy 2020 - written and coded by <a href="http://www.freecodecamp.com/tonymorristm">Tony Morris</a></p>
-  </footer> -->
+  </footer>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
   </body>
 </html>
+
+
+<!-- Shift + Alt + down arrow -->
