@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Product Landing Page</title>
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/style.css">      
   </head>
   <body>
-
+  
+  
+  
   <header id="header">
     <nav id="nav-bar">
 
@@ -31,6 +32,8 @@
 
   </header>
 
+  <div class="page">
+
   <h2 class="text-h2">Hancrafted, hand-made horological masterpieces</h2>
 
   <form action="https://www.freecodecamp.com/email-submit" id="form">
@@ -40,12 +43,14 @@
 
   
   <h2 id="features">Features</h2>
-  <p>Premium Materials</p>
-  <p>Fast Shipping</p>
-  <p>Quality Assurance</p>
- 
+    <ul>
+      <p><span>&#9881;</span>  Premium Materials</p>
+      <p><span>&#128666;</span>  Fast Shipping</p>
+      <p><span>&#128077;</span>  Quality Assurance</p>
+    </ul>
+<br>
   <h2 id="howitworks">How It Works</h2>
-  <p>How it Works</p>
+  <p>Take a look at this video to see how a watch movement works</p>
 
     <div id="video-section">
       <iframe id="video" src="https://player.vimeo.com/video/45356333" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -54,9 +59,45 @@
     </div><!-- howitworks -->
 
     <h2 id="pricing">Pricing</h2>
-    <p>Pricing</p>
-
  
+    <section id="prices">
+      <div class="pocketwatch">
+      <div class="watch">Pocket Watch</div>
+      <h2>starts @ $1500</h2>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum dolor</p>
+      <p>lorem ipsum</p>
+      <button class="select">SELECT</button>
+    </div>
+    
+      <div class="wristwatch">
+        <div class="watch">Wrist Watch</div>
+      <h2>starts @ $750</h2>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum dolor</p>
+      <p>lorem ipsum</p>
+      <button class="select">SELECT</button>
+    </div>
+    
+      <div class="womenswatch">
+        <div class="watch">Women's Watch</div>
+      <h2>starts @ $500</h2>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum</p>
+      <p>lorem ipsum dolor</p>
+      <p>lorem ipsum</p>
+      <button class="select">SELECT</button>
+    </div>
+
+    </section>
+
+
+  </div><!-- page -->
 
   
   <footer>
@@ -66,6 +107,3 @@
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
   </body>
 </html>
-
-
-<!-- Shift + Alt + down arrow -->

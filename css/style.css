@@ -2,27 +2,24 @@
   box-sizing: border-box;
 }
 
-#page {
-  margin-top: 50px;
+body {
+  font-family: 'Lato', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
+.page {
+  margin-top: 150px;
 
-#header {
-  /* border: 2px solid red; */
 }
 
 #nav-bar {
-  /* border: 4px solid green; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.logo {
-  /* border: 2px solid blue; */
-}
-
-#nav-bar {
-  /* border: 2px solid purple; */
 }
 
 .nav-links {
@@ -39,11 +36,21 @@
   text-align: center;
 }
 
+#features, #howitworks, #pricing {font-size: 2rem;
+  text-decoration: underline;
+}
+
+#email  {
+  height: 1.5rem;
+}
+
 #submit {
-  width: 210px;
-  height: 50px;
+  width: 185px;
+  height: 35px;
+  margin-top: 5px;
   background-color: mediumseagreen;
-  font-size: 2.15rem;
+  border-radius: .5rem;
+  font-size: 1.75rem;
 }
 
 #video-section {
@@ -51,7 +58,39 @@
   justify-content: center;
 }
 
+iframe {
+  max-width: 560px;
+  width: 100%;
+}
 
+#prices {
+  display: flex;
+  justify-content: center;
+}
+
+.pocketwatch, .wristwatch, .womenswatch {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 20px;
+  max-width: 250px;
+  width: 100%;
+}
+
+
+.watch {
+  background-color: lightgrey;
+  font-size: 1.5rem;
+  
+}
+
+.select {
+  background-color: peru;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
 
 footer {
   text-align: center;
@@ -65,11 +104,14 @@ footer {
 }
 
 footer p {
-  font-size: 1rem;
+  font-size: .75rem;
 }
 
 @media only screen and (max-width: 650px) {
-  .nav-links {
+  .nav-links, #prices {
     flex-direction: column;
+  }
+  .pocketwatch, .wristwatch, .womenswatch {
+    margin: 10px 0;
   }
 }
